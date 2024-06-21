@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884021441287",
+    "project_id": "spotify-clone-73ed4",
+    "storage_bucket": "spotify-clone-73ed4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884021441287:android:cc42fc9885a5d1589bcba2",
+        "android_client_info": {
+          "package_name": "com.frcoding.musicplayerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaYygJgZzZZfd38K_3uGIg8xmWoaQKo5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
