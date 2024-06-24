@@ -9,8 +9,9 @@ import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.tasks.await
+import javax.inject.Inject
 
-class AccountServiceImpl: AccountService {
+class AccountServiceImpl @Inject constructor(): AccountService {
     override val currentUser: Flow<User?>
         get() = callbackFlow {
             val listener =
